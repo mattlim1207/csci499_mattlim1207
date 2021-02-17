@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Caw Version 1.0)
+project(Caw)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
 add_executable(caw Caw.cc)
 find_package(glog 0.4.0 REQUIRED)

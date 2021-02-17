@@ -10,8 +10,10 @@ Then cd into the created glog directory, then run
 	cmake --build build
 	cmake --build build --target install
 
-Then, cd into the build directory, and run
+Then, create a build directory and run cmake using the following commands
 
+	mkdir build
+	cd build
 	cmake ..
 
 Run the created executable ./caw with any corresponding flags.
