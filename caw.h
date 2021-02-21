@@ -10,7 +10,9 @@ DECLARE_string(read);
 DECLARE_string(follow);
 DECLARE_bool(profile);
 
-// Simple set of static functions offered by "Caw" for "Faz"
+// 'Caw' is a set of static functions recreating common Twitter functionalities
+// Implements static functions for requests from 'Faz' layer that manipulate
+// backend storage accordingly
 class Caw {
  public:
   // Registers user with given username
@@ -28,7 +30,7 @@ class Caw {
 
   // Returns caw with given id
   static void ReadHandler(const std::string &id);
-  
+
   // Returns profile of given user
   static void ProfileHandler(const std::string &user);
 };
